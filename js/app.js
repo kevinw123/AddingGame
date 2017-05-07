@@ -101,3 +101,18 @@ var json = [
     "message": "Channel 'not-a-valid-account' does not exist"
   }
 ];
+
+console.log(json);
+getNames(json);
+
+function getNames(json){
+	for(i = 0; json.length-2; i++){
+		if(json[i].stream == null){
+			console.log(json[i].display_name);
+		}
+	}
+}
+
+function getStatus(){
+
+}
