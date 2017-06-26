@@ -68,6 +68,10 @@
   cursor: pointer;
 }
 
+h1{
+  text-align: center;
+}
+
 .quiz {
   color: #ddd;
   margin: 2%;
